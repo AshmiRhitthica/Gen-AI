@@ -5,24 +5,40 @@ A collection of my learning projects and implementations in **Machine Learning, 
 ## Projects
 
 ### Text Normalization
+
 A Python-based text normalization implementation covering:
-- Lowercase conversion
-- Punctuation and special character handling
-- Emoji handling
-- Contraction expansion
-- Repeated character normalization
-- Extra space removal
-- Spell correction
+
+* Lowercase conversion
+* Punctuation and special character handling
+* Emoji handling
+* Contraction expansion
+* Repeated character normalization
+* Extra space removal
+* Spell correction
 
 ### RAG Architecture
+
 A Retrieval-Augmented Generation project demonstrating:
-- Text preprocessing
-- Text chunking
-- Embeddings
-- FAISS vector database
-- Similarity search
-- Retrieval
-- LLM-based response generation
+
+* Text preprocessing
+* Text chunking
+* Embeddings
+* FAISS vector database
+* Similarity search
+* Retrieval
+* LLM-based response generation
+
+### Retrieval Testing
+
+A retrieval evaluation implementation for the RAG architecture covering:
+
+* Retrieval ground truth creation
+* Similarity-based retrieval using FAISS
+* Recall@K
+* Precision@K
+* Reciprocal Rank
+* Hit Rate
+* Evaluation of retrieved chunks against relevant chunks
 
 ## Purpose
 
