@@ -56,6 +56,22 @@ The project covers:
 * Testing multiple user sessions
 * Inspecting stored conversation history
 
+### LangChain Tool Calling Agent
+
+A simple AI agent implementation using LangChain and Google Gemini, demonstrating how an LLM can use custom Python tools based on the user's query.
+
+The project covers:
+
+* Creating custom tools using LangChain's `@tool`
+* Building a word-count tool
+* Building a text-reversal tool
+* Connecting Google Gemini with LangChain
+* Creating an agent using `create_agent`
+* Agent-based tool selection
+* Invoking an agent with user messages
+* Handling tool-based tasks and general LLM questions
+* Accessing the final agent response
+
 ## 📌About This Repository
 
 This repository documents my hands-on learning and implementation of concepts in **AI and Generative AI** through practical projects.
